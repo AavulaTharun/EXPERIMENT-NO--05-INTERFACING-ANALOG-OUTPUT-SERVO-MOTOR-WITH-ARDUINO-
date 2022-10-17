@@ -65,8 +65,10 @@ CIRCUIT DIAGRAM
 8.	Upload the program and check for the physical working. 
 9.	Ensure safety before powering up the device.
 
-~~~
+
 ## PROGRAM :
+~~~
+
 Name: A.Tharun
 
 reg no:212221240003
