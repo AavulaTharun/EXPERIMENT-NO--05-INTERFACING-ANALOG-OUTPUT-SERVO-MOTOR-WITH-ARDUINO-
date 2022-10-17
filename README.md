@@ -66,7 +66,7 @@ CIRCUIT DIAGRAM
 9.	Ensure safety before powering up the device.
 
 ~~~
-### PROGRAM :
+## PROGRAM :
 Name: A.Tharun
 
 reg no:212221240003
