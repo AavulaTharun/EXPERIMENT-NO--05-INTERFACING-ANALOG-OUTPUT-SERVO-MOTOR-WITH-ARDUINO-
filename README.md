@@ -65,7 +65,7 @@ CIRCUIT DIAGRAM
 8.	Upload the program and check for the physical working. 
 9.	Ensure safety before powering up the device.
 
-
+~~~
 ### PROGRAM :
 Name: A.Tharun
 
@@ -90,6 +90,7 @@ void loop()
     delay(15);
   }
 }
+~~~
 
 ## Circuit Diagram:
 ### Offset:
