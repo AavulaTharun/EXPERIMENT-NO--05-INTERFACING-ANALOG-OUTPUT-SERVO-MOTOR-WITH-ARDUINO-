@@ -67,14 +67,43 @@ CIRCUIT DIAGRAM
 
 
 ### PROGRAM :
- 
+Name: A.Tharun
 
+reg no:212221240003
 
+#include<Servo.h>
+Servo s1;
+void setup()
+{
+  s1.attach(9);
+}
+void loop()
+{
+  for (int i=0;i<=180; i+= 1)
+  {
+    s1.write(i);
+    delay(15);
+  }
+  for (int i=180;i>=0;i-= 1)
+  {
+    s1.write(i);
+    delay(15);
+  }
+}
 
+## Circuit Diagram:
+### Offset:
+![194714314-6aa1b546-b92f-4db7-9f25-f310443bd54d](https://user-images.githubusercontent.com/93427201/196183873-f930d403-20ff-4c32-a4e1-1a7416abc57b.png)
 
+### Onset:
+ ![194714317-3c180a4c-3c81-4d44-a715-30a6ddcbc907](https://user-images.githubusercontent.com/93427201/196184056-30bc51af-1d98-438d-87de-709957d01fec.png)
 
+## OUTPUT:
+### Serial monitor:
+![194714482-b8fa22e4-b1db-4612-abd2-419758214d4b](https://user-images.githubusercontent.com/93427201/196184217-aeaa734e-5e17-474c-bfde-c91337edd52d.png)
 
-
+### Toggle graph:
+![194714522-243c471f-c21e-47fe-a6bd-a5243899c9a2](https://user-images.githubusercontent.com/93427201/196184264-f84734bc-53a3-4794-a1f0-0695408a357d.png)
 
 
 ### RESULTS: 
